@@ -31,7 +31,7 @@ Escolhemos esse sistema por sua relevância no cenário atual da educação, al�
 
 # 2. Situação Problema
 
-![Ciclo da Venda](docs/ciclo_da_venda.webp "Ciclo da Venda")
+![Ciclo Serviço](/images/fluxoServico.png "Ciclo Serviço")
 
 - Escolhemos o Instituto Federal Catarinese - Câmpus Araquari, uma instituição pública de ensino que oferece cursos integrados ao ensino médio e cursos superiores. A instituição apresenta dezenas de professores e centenas de alunos incritos.
 - A instituição oferece o SIGAA como principal plataforma de gerenciamento acadêmico. Essa plataforma é críticada principalmente pela interface pouco intuitiva, lentidão e dificuldade de navegação. Diversos estudades reclamam de não conseguir encontrar informações básicas, além de que o SIGAA não oferece uma comunicação clara entre professor e aluno, onde fóruns e mensagens internas são pouco usados por conta da complexidade e visual antigo, fazendo muitos professores escolherem outras plataformas e apenas utilizando o SIGAA para a aplicação de nota.
