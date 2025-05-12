@@ -81,3 +81,103 @@ O sistema será dividido em 2 principais níveis usuários:
 #### RN012 – Responsividade: A plataforma deve funcionar bem em qualquer dispositivo;
 
 #### RN013 – Relatórios: Professores podem gerar relatórios de desempenho da turma;
+
+# 6. Requisitos Funcionais
+
+### Entradas
+
+**RF001** - Cadastro de Aluno: O sistema deve manter cadastro de alunos;
+Dados necessários: Nome, e-mail, matrícula, CPF.
+Usuários: Aluno e Administrador
+
+**RF002** - Cadastro de Professor: O sistema deve manter cadastro de professores;
+Dados necessários: Nome, e-mail, CPF, senha.
+Usuários: Professor e Administrador.
+
+**RF003** - Cadastro de Administrador: O sistema deve permitir o cadastro de usuários com perfil de administrador;
+Dados necessários: Nome, e-mail, CPF, senha.
+Usuários: Administrador.
+
+**RF004** - Cadastro de Turmas: O sistema deve manter turmas;
+Dados necessários: Nome da turma, período, professor responsável.
+Usuários: Administrador.
+
+**RF005** - Vinculação de Aluno a Turma: O sistema deve permitir que alunos sejam vinculados a turmas;
+Usuários: Administrador.
+
+**RF006** - Cadastro de Disciplinas: O sistema deve permitir o cadastro de disciplinas vinculadas a uma turma;
+Usuários: Administrador.
+
+### Processamento
+
+**RF007** - Cadastro de Materiais: O sistema deve manter materiais;
+Dados necessários: Arquivo, descrição, turma vinculada.
+Usuários: Professor, Administrador.
+
+**RF008** - Cadastro de Atividades: O sistema deve manter atividades escolares;
+Dados necessários: Descrição, prazo, anexos.
+Usuários: Professor.
+
+**RF009** - Estipulação de Prazo de Atividades: O sistema deve permitir a definição de prazos para entrega de atividades
+Usuários: Professor.
+
+**RF010** - Correção de Atividades: O sistema deve permitir a correção de atividades pelo professor;
+Usuários: Professor.
+
+**RF011** - Registro de Notas: O sistema deve permitir o registro de notas.
+Dados necessários: Atividade, nota, aluno.
+Usuários: Professor.
+
+**RF012** - Autenticação: O sistema deve permitir login com diferente autenticações para professores, alunos e administradores;
+Usuários: Todos os usuários.
+
+**RF013** - Atribuição de Papéis: O sistema deve permitir ao administrador atribuir ou remover papéis (aluno, professor, ambos);
+Usuários: Administrador.
+
+**RF014** - Gerenciamento de Permissões: O sistema deve permitir que o administrador configure permissões de acesso.
+Usuários: Administrador.
+
+**RF015** - Gerenciamento de Turmas e Disciplinas: O sistema deve permitir que o administrador crie, edite e exclua turmas e disciplinas.
+Usuários: Administrador.
+
+### Saídas
+
+**RF016** - Boletim Escolar: O sistema deve manter e disponibilizar boletins escolares.
+Dados necessários: Notas por disciplina, aluno, média final.
+Usuários: Aluno, Professor, Administrador.
+
+**RF017** - Sistema de Chat: O sistema deve manter chat para comunicação entre aluno e professor.
+Dados necessários: Mensagem, remetente, destinatário, turma.
+Usuários: Aluno, Professor.
+
+**RF018** - Sistema de Vídeo Chamada: O sistema deve permitir comunicação via vídeo chamada entre alunos e professores.
+Usuários: Aluno, Professor.
+
+**RF019** - Visualização de Conteúdos: O sistema deve permitir a visualização de conteúdos publicados.
+Usuários: Aluno.
+
+**RF020** - Registro de Faltas: O sistema deve manter um registro de faltas por aluno.
+Dados necessários: Aula, data, presença/falta.
+Usuários: Professor, Aluno, Administrador.
+
+**RF021** - Notificações de Novidades: O sistema deve enviar notificações sobre novos conteúdos, atividades e prazos.
+Dados necessários: Tipo de notificação, destinatário.
+Usuários: Aluno.
+
+**RF023** - Envio de Avisos para Turma: O sistema deve permitir que o professor envie avisos gerais para a turma.
+Dados necessários: Mensagem, turma.
+Usuários: Professor.
+
+**RF024** - Observar Comunicações: O sistema deve permitir que o administrador observe mensagens via chat e vídeo.
+Dados necessários: Históricos de conversa, chamadas, denúncias.
+Usuários: Administrador.
+
+### Requisitos não Funcionais
+
+**RNF001** - O backend do sistema deve ser feito com o framework Laravel;
+
+**RNF002** - O frontend do sistema deve ser feito com o framework Vue.js;
+
+**RNF003** - O sistema deve ser totalmente responsivo para dispositivos móveis;
+
+**RNF004** - O sistema deve possuir uma interface simples e intuitiva;
