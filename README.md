@@ -48,8 +48,36 @@ O sistema será dividido em 2 principais níveis usuários:
 |Professores       |Criar turmas, publicar materiais, enviar atividades com prazos definidos, corrigir tarefas, registrar notas, se comunicar com alunos por meio de um chat ou vídeo chamada.|
 |Aluno             | Acesso a turmas, visualizar conteúdos, entregar atividades, ver prazos de entrega, consultar notas e enviar dúvidas para o professor.|
 
-# Modelagem de Dados
+# 4 .Modelagem de Dados
 
 <div aling="center">
   <img src="images/banco_next.png" />
 </div>
+
+# 5. Regras de Negócio
+
+#### RN0001 – Cadastro de Usuário: Um usuário novo tem que se cadastrar com nome, CPF, e-mail e senha;
+
+#### RN002 – Perfis de Usuário: O sistema deve diferenciar perfis de professor, aluno e administrador;
+
+#### RN003 – Criação de Turma: Apenas administradores podem criar as turmas;
+
+#### RN004 – Entrar em Turmas: Alunos são colocados nas turmas pelos administradores;
+
+#### RN005 – Publicação de Conteúdo: Professores podem postar materiais e tarefas;
+
+#### RN006 – Entrega de Atividades: Alunos entregam atividades dentro do prazo definido pelo professor;
+
+#### RN007 – Correção e Notas: Professores corrigem atividades e dão notas;
+
+#### RN008 – Desempenho: Alunos podem ver suas notas;
+
+#### RN009 – Comunicação: Professores e alunos se comunicam por chat e vídeo chamada;
+
+#### RN010 – Notificações: O sistema envia avisos sobre novas tarefas, mensagens e notas;
+
+#### RN011 – Fórum: Cada turma possui um espaço de discussão entre alunos e professor;
+
+#### RN012 – Responsividade: A plataforma deve funcionar bem em qualquer dispositivo;
+
+#### RN013 – Relatórios: Professores podem gerar relatórios de desempenho da turma;
