@@ -185,5 +185,5 @@ Usuários: Administrador.
 # 8. Diagrama de Caso de Uso
 
 <div aling="center">
-  <img src="images/Fluxo-NextClass.png" />
+  <img src="images/fluxo_nextclass.png" />
 </div>
