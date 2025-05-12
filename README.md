@@ -172,7 +172,7 @@ Usuários: Professor.
 Dados necessários: Históricos de conversa, chamadas, denúncias.
 Usuários: Administrador.
 
-### Requisitos não Funcionais
+# 7. Requisitos não Funcionais
 
 **RNF001** - O backend do sistema deve ser feito com o framework Laravel;
 
@@ -181,3 +181,9 @@ Usuários: Administrador.
 **RNF003** - O sistema deve ser totalmente responsivo para dispositivos móveis;
 
 **RNF004** - O sistema deve possuir uma interface simples e intuitiva;
+
+# 8. Diagrama de Caso de Uso
+
+<div aling="center">
+  <img src="images/Fluxo-NextClass.png" />
+</div>
