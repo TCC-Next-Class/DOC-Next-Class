@@ -47,3 +47,9 @@ O sistema será dividido em 2 principais níveis usuários:
 |------------------|--------------------|
 |Professores       |Criar turmas, publicar materiais, enviar atividades com prazos definidos, corrigir tarefas, registrar notas, se comunicar com alunos por meio de um chat ou vídeo chamada.|
 |Aluno             | Acesso a turmas, visualizar conteúdos, entregar atividades, ver prazos de entrega, consultar notas e enviar dúvidas para o professor.|
+
+# Modelagem de Dados
+
+<div aling="center">
+  <img src="images/banco_next.png" />
+</div>
